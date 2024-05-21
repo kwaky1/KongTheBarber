@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <link href="corestyles.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+
+		<title>Kong the Barber</title>
+    </head>
+
+    <body>
+        <!-- ============================================ -->
+        <!--                 Navigation                   -->
+        <!-- ============================================ -->
+
+        <header id="cs-navigation">
+            <div class="cs-container">
+                <!--Navigation List-->
+                <nav class="cs-nav" role="navigation">
+                    <!--Mobile Nav Toggle-->
+                    <button class="cs-toggle" aria-label="mobile menu toggle">
+                        <div class="cs-box" aria-hidden="true">
+                            <span class="cs-line cs-line1" aria-hidden="true"></span>
+                            <span class="cs-line cs-line2" aria-hidden="true"></span>
+                            <span class="cs-line cs-line3" aria-hidden="true"></span>
+                        </div>
+                    </button>
+                    <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                    <div class="cs-ul-wrapper">
+                        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link cs-active">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    About
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    Gallery
+                                </a>
+                            </li>
+                            <!--Nav Logo-->
+                            <a href="" class="cs-logo" aria-label="back to home">
+                                <img src="images/kong.png" alt="logo" aria-hidden="true" decoding="async">
+                            </a>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    Find Us
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    Contact
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    <span style="color:var(--primary)">Book Now</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+                                
+        <!-- ============================================ -->
+        <!--                    Hero                      -->
+        <!-- ============================================ -->
+
+        <section id="hero-82">
+            <div class="cs-container">
+                <h1 class="cs-title">A WORLD CLASS BARBER,<br>LOCAL TO YOU</h1>
+                <p class="cs-text">
+                    Dont believe us? 
+                </p>
+                <a href="" class="cs-button-solid">SEE OUR SERVICES</a>
+            </div>
+
+            <!-- Background Image -->
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg">
+                <img decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+            </picture>
+        </section>
+                                
+        <!-- ============================================ -->
+        <!--               About / Content                -->
+        <!-- ============================================ -->
+
+        <section id="sbs-1591">
+            <div class="cs-container">
+                <div class="cs-image-group">
+                    <!--Top left image-->
+                    <picture class="cs-picture cs-picture1">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="images/img1.jpg">
+                        <img loading="lazy" decoding="async" src="images/img1.jpg" alt="mechanic" width="413" height="500">
+                    </picture>
+                    <!--Top Right image-->
+                    <picture class="cs-picture cs-picture2">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="images/img2.jpg">
+                        <img loading="lazy" decoding="async" src="images/img2.jpg" alt="mechanic" width="413" height="280">
+                    </picture>
+                </div>
+                <div class="cs-content">
+                    <h2 class="cs-title">THE KONG THE BARBER STORY</h2>
+                    <p class="cs-text">
+                        "I've decided to return home, slow down my pace and perfect my craft of <span style="color: var(--primary);">specialised haircuts</span> to ensure every single customer feels like they are on top of the world"
+                        <br><br>
+                        "We're dedicated to making you the <span style="color: var(--primary);">best version of yourself</span>"
+                    </p>
+                    <a href="" class="cs-button-solid">HEAR THE WHOLE STORY</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                   Gallery                    -->
+        <!-- ============================================ -->
+
+        <section id="gallery-1152">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <h2 class="cs-title">Our Photo Gallery</h2>
+                </div>
+                <div class="cs-gallery">
+                    <!--Picture 1-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char1.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char1.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char1.jpg" alt="gallery" width="272" height="320">
+                    </picture>
+                    <!--Picture 2-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char2.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char2.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char2.jpg" alt="gallery" width="272" height="320">
+                    </picture>
+                    <!--Picture 3-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char3.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char3.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char3.jpg" alt="gallery" width="272" height="320">
+                    </picture>
+                    <!--Picture 4-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char4.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char4.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char4.jpg" alt="gallery" width="272" height="320">
+                    </picture>
+                    <!--Picture 5-->
+                    <picture class="cs-image">
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char5.jpg">
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char5.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/char5.jpg" alt="gallery" width="272" height="320">
+                    </picture>
+                </div>
+                <a href="" class="cs-button-solid">SEE OUR SERVICES</a>
+            </div>
+        </section>
+                                
+        <!-- ============================================ -->
+        <!--                    FAQ                       -->
+        <!-- ============================================ -->
+
+        <section id="faq-254">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <h2 class="cs-title">Frequently Asked Questions</h2>
+                    <p class="cs-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur veritatis quae explicabo a quia veniam temporibus aliquid? Quos maiores architecto a officia aliquid atque reiciendis quae? Voluptas maxime sit quae!
+                    </p>
+                </div>
+                <div class="cs-flex-group">
+                    <ul class="cs-faq-group">
+                        <li class="cs-faq-item">
+                            <button class="cs-button">Can you help me?</button>
+                            <p class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                            </p>
+                        </li>
+                        <li class="cs-faq-item">
+                            <button class="cs-button">How long will it take?</button>
+                            <p class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                            </p>
+                        </li>
+                        <li class="cs-faq-item">
+                            <button class="cs-button">How much will it cost?</button>
+                            <p class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                            </p>
+                        </li>
+                        <li class="cs-faq-item">
+                            <button class="cs-button">Covered by insurance?</button>
+                            <p class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                            </p>
+                        </li>
+                        <li class="cs-faq-item">
+                            <button class="cs-button">How long are the appointments?</button>
+                            <p class="cs-item-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="cs-cta">
+                        <h3 class="cs-h3">Don’t see the answer you need?</h3>
+                        <p class="cs-cta-p">
+                            That’s ok. Just drop a message and we will get back to you ASAP.
+                        </p>
+                        <a href="" class="cs-button-solid">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================ -->
+        <!--                  Footer                      -->
+        <!-- ============================================ -->
+
+        <footer id="footer-1390">
+            <div class="cs-container">
+                <div class="cs-top">
+                    <a aria-label="go back to home" class="cs-logo" href="">
+                        <!--NEED TO OPTIMISE LOGO!-->
+                        <img class="cs-logo-img" loading="lazy" decoding="async" src="images/kong.png" alt="logo">
+                    </a>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <a href="" class="cs-link">Home</a>
+                        </li>
+                        <span class="cs-separater">|</span>
+                        <li class="cs-li">
+                            <a href="" class="cs-link">Services</a>
+                        </li>
+                        <span class="cs-separater">|</span>
+                        <li class="cs-li">
+                            <a href="" class="cs-link">About</a>
+                        </li>
+                        <span class="cs-separater">|</span>
+                        <li class="cs-li">
+                            <a href="" class="cs-link">Gallery</a>
+                        </li>
+                        <span class="cs-separater">|</span>
+                        <li class="cs-li">
+                            <a href="" class="cs-link">Find Us</a>
+                        </li>
+                        <span class="cs-separater">|</span>
+                        <li class="cs-li">
+                            <a href="" class="cs-link">Contact</a>
+                        </li>
+                        <span class="cs-separater">|</span>
+                        <li class="cs-li">
+                            <a href="" class="cs-link">Book Now</a>
+                        </li>
+                    </ul>
+                    <!--Social-->
+                    <ul class="cs-social">
+                        <li class="cs-social-li">
+                            <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                                <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li class="cs-social-li">
+                            <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
+                                <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                            </a>
+                        </li>
+                        <li class="cs-social-li">
+                            <a href="" class="cs-social-link" aria-label="youtube" target="_blank" rel="noopener">
+                                <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cs-bottom">
+                    <span class="cs-copyright">
+                        © Kong The Barber 2024. All rights reserved.
+                    </span>
+                    <div class="cs-flex">
+                        <a href="" class="cs-copyright-link">Privacy Policy</a>
+                        <span class="cs-separater">|</span>
+                        <a href="" class="cs-copyright-link">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+
+</html>
